@@ -95,6 +95,4 @@ client.on("interactionCreate", async (interaction) => {
 // });
 
 
-client.login(
-    "MTMwMzYwNzM0NDg4MTYwMjYyMA.GG1tm0.sTaos7Vlp9NuD-TPGz4wZMNdkcdcwV07pjpCB0"
-);
+client.login(process.env.BOT_TOKEN);

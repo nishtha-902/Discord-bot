@@ -34,9 +34,7 @@ const commands = [
     },
 ];
 
-const rest = new REST({ version: '10' }).setToken(
-    "MTMwMzYwNzM0NDg4MTYwMjYyMA.GG1tm0.sTaos7Vlp9NuD-TPGz4wZMNdkcdcwV07pjpCB0"
-);
+const rest = new REST({ version: '10' }).setToken(process.env.BOT_TOKEN);
 
 try {
     console.log('Started refreshing application (/) commands.');
